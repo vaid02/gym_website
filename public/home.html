@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./partials/home.css">
+</head>
+
+<body>
+  <nav id="NavBar" class="navbar sticky-top navbar-expand-lg bg-body-tertiary-dark">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">
+        <img id="logo" src="./partials/logo.png" alt="Bootstrap" width="30" height="24">
+      </a>
+    </div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">Hulk Fitness</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="traning.html">Traning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facility.html">Facilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="d-flex">
+      <a href="login.html">
+        <button id="loginbtn" class="btn btn-outline-warning" type="submit">Login</button></a>
+      <a href="signup.html">
+        <button id="signupbtn" class="btn btn-outline-warning" type="submit">Sign Up</button></a>
+    </div>
+  </nav>
+
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1400x650/?gym_people" class="d-block w-100" alt="Our Gym">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x650/?gym_black" class="d-block w-100" alt="Our Gym">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x650/?gym_equipments" class="d-block w-100" alt="Our Gym">
+      </div>
+      <div id="welcome">
+        <div>Welcome to Hulk Fitness</div>
+        <div><a href="signup.html"><button id="button" type="button" class="btn btn-warning">Join Us</button></a></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+          <h1>EXPERT PERSONAL TRAINING</h1>
+          <div>HULK FITNESS Gyms has the best personal training program in our area. Our certified
+            personal
+            trainers are experts in their craft. We create the perfect programs to help you reach your goals. Everything
+            begins with our energy and figuring out how to evolve that, then the journey begins.</div>
+            <a href="signup.html"><button class="btn btn-outline-warning" type="submit">Explore Now</button></a>
+        </div>
+        <div class="col-5"><img src="./partials/1.webp" class="d-block w-100" alt="We provide personal traning">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5"> <img src="https://source.unsplash.com/460x490/?gym_equipments" class="d-block w-100"
+            alt="Standadized equipments available">
+        </div>
+        <div class="col-7">
+          <h1>HIGHLY STANDARDIZED EQUIPMENTS </h1>
+          <div>We have a lot of different types of fitness equipment with various features and
+            connectivity like a touchscreen and streaming abilities. You can go from a no-frills treadmill to a smart
+            rower with full connectivity. Our gym equipment is a huge part of the member experience. It creates a level
+            of convenience and allows members to hit their fitness goals. </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7">
+          <h1>ATMOSPHERE</h1>
+          <div>Our members tell us that they love our gym and the competitive
+            atmosphere to be better. We are a gym for people that are serious
+            about their health and fitness. Our gym is almost at capacity for monthly members because we want to make
+            sure we don't get overcrowded.</div>
+            <a href="signup.html"><button class="btn btn-outline-warning" type="submit">Start Your Journey</button></a>
+        </div>
+        <div class="col-5"> <img src="https://source.unsplash.com/506x400/?gym_group" class="d-block w-100"
+            alt="Good atmosphere to grow">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5"> <img src="./partials/re.jpg" class="d-block w-100" alt="We provide recovery equipments">
+        </div>
+        <div class="col-7">
+          <h1>THE. BEST. RECOVERY.</h1>
+          <div>Our ultimate tier membership gives you the best recovery equipment in Port Saint Lucie. The hydromassage
+            and Cryo chairs alone are worth the becoming a member. </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7">
+          <h1>FOR ALL AGES</h1>
+          <div>Regular physical activity is one of the most important things people can do to improve their health.
+            Moving more and sitting less have tremendous benefits for everyone, regardless of age, sex, race, ethnicity,
+            or current fitness level.</div>
+        </div>
+        <div class="col-5"> <img src="./partials/age.jpg" class="d-block w-100" alt="Good atmosphere to grow">
+        </div>
+      </div>
+      <div id="join" class="row">
+        <img src="https://source.unsplash.com/1400x450/?gym_group" class="d-block w-100" alt="Our Gym">
+        <div>JOIN TODAY</div>
+        <a href="signup.html"><button class="btn btn-outline-warning" type="submit">Click Here</button></a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+          <div class="card text-center">
+              
+              <div class="card-body">
+                <h1 class="card-title">Hulk Fitness</h1>
+                <p class="card-text">E-Mail : hulkfitness@gmail.com</p>
+                <p class="card-text">Contact : +919303829670</p>
+                <p class="card-text">Meet us at address : Behind Rama Magneto Mall, Bilaspur, Chhatisgarh</p>
+                <p class="card-text">Hours Of Operation:<p id="p1">Monday - Friday - 5:00 a.m - 11:00 p.m</p>
+                <p> Saturday & Sunday - 7:00 a.m - 7:00 p.m</p></p>
+              </div>
+              <div class="card-footer text-body-secondary">
+                  <div id="txt">COME TRAIN WITH US</div>
+
+              </div>
+            </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

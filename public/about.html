@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        #logo {
+            width: 70px;
+            height: 70px;
+        }
+
+        .container-fluid {
+            margin-left: -71%;
+            color: black;
+        }
+
+        .navbar {
+            --bs-navbar-padding-y: -0.5rem;
+
+        }
+
+        #loginbtn,
+        #signupbtn {
+            width: 100px;
+            margin-right: 15px;
+        }
+
+        .nav-item:hover {
+            background-color: #ffc107;
+            border-radius: 10px;
+        }
+
+        .r div {
+            position: absolute;
+            top: 241px;
+            left: 100px;
+            font-weight: 500;
+            font-size: 500%;
+            color: white;
+        }
+        .row{
+            margin: 35px -120px 0px -106px;
+        }
+        .row .col-7{
+            margin-top: 178px;
+            text-align: justify;
+        }
+        .col-7 h1{
+            margin-bottom: 36px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav id="NavBar" class="navbar sticky-top navbar-expand-lg bg-body-tertiary-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./partials/logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hulk Fitness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traning.html">Traning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facility.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex" role="search">
+            <a href="login.html">
+                <button id="loginbtn" class="btn btn-outline-warning" type="submit">Login</button></a>
+              <a href="signup.html">
+                <button id="signupbtn" class="btn btn-outline-warning" type="submit">Sign Up</button></a>
+            </div>
+    </nav>
+
+    <div class="r">
+        <img src="./partials/long.webp" class="d-block w-100" alt="Our Gym">
+        <div>HULK FITNESS WELCOMES YOU</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5"> <img src="./partials/ab.avif" class="d-block w-100"
+                    alt="Standadized equipments available">
+            </div>
+            <div class="col-7">
+                <h1>Our Mission & Concept</h1>
+                <div>Our concept is simple. Provide our local communities with the most motivating fitness environment
+                    possible. As a valued member, you will receive the cleanest facilities with the friendliest staff
+                    guaranteed. No matter your gym experience or level of fitness, you will find our atmosphere
+                    welcoming and inspiring. Our mission is to ultimately help you achieve your end goal.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="card text-center">
+                
+                <div class="card-body">
+                  <h1 class="card-title">Hulk Fitness</h1>
+                  <p class="card-text">E-Mail : hulkfitness@gmail.com</p>
+                  <p class="card-text">Contact : +919303829670</p>
+                  <p class="card-text">Meet us at address : Behind Rama Magneto Mall, Bilaspur, Chhatisgarh</p>
+                  <p class="card-text">Hours Of Operation:<p id="p1">Monday - Friday - 5:00 a.m - 11:00 p.m</p>
+                  <p> Saturday & Sunday - 7:00 a.m - 7:00 p.m</p></p>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    <div id="txt">COME TRAIN WITH US</div>
+  
+                </div>
+              </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
