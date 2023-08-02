@@ -1,0 +1,89 @@
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+.container-fluid {
+    margin-left: -71%;
+}
+
+.navbar {
+    --bs-navbar-padding-y: -0.5rem;
+    scroll-snap-stop: always;
+}
+
+#loginbtn,
+#signupbtn {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.nav-item:hover{
+    background-color: #ffc107;
+    border-radius: 10px;
+}
+
+#welcome {
+    position: absolute; 
+    top: 241px;
+    left: 260px;
+    font-weight: 500;
+    font-size: 500%;
+    color: white;
+}
+
+#button {
+    left: 300px;
+    margin-left: 356px;
+    width: 150px;
+}
+
+.row {
+    margin: 100px -88px 100px -88px;
+    
+}
+
+.col-5 img {
+    height: fit-content;
+}
+.col-7{
+    font-size: 135%;
+}
+.col-7 h1{
+    font-size: 4.5rem;
+    margin-bottom: 12dvh;
+}
+.col-7 button{
+    width: 256px;
+    margin: 42px 0 0 153px;
+}
+
+#join {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 118%;
+    min-height: 412px;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+#join div {
+
+    position: absolute;
+    left: 53dvh;
+    font-weight: 700;
+    line-height: 0.8em;
+    font-size: 120px;
+    color:#ffc107;
+    align-self: center;
+    opacity: 70%;
+}
+#join a button{
+    position: absolute;
+    left: 90dvh;
+    margin-top: -13dvh;
+    width: 210px;
+}
+
+
