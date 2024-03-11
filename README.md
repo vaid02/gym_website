@@ -1,4 +1,4 @@
-# final_project
+# Gym website 
 Home Page
 ![Screenshot (51)](https://github.com/vaid02/final_project/assets/122258272/e9e16e52-a9a2-43e1-bc8d-2103fffc03a0)
 
